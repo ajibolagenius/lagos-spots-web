@@ -1,3 +1,17 @@
+@import "tailwindcss";
+
+/* Define Custom Design Tokens via @theme */
+@theme {
+  --color-brand-primary: #ea580c; /* Orange-600 */
+  --color-brand-secondary: #0f172a; /* Slate-900 */
+  
+  --color-category-food: #f59e0b;
+  --color-category-study: #3b82f6;
+  --color-category-nightlife: #8b5cf6;
+  --color-category-events: #10b981;
+}
+
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
